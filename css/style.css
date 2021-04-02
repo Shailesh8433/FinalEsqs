@@ -7,24 +7,29 @@ html,body{
 html{
     scroll-behavior: smooth;
 }
+  
 #header {
     background-color: dodgerblue;
 }
-#header a{
-    color:whitesmoke;
-    font-size: 17px;
+#header li{
+    list-style: none;
+    display: inline-block;
 }
-#header a:hover{
+.header a, .header .fa{
+    color: whitesmoke;
+    padding-right: 10px;
+    
+}
+.header a:hover{
     text-decoration: none;
 }
-#header .fa{
-    font-size: 30px;
-    padding-top: 4px;
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+    .header p , .header a{
+        text-align: center;
+    }
 }
-#header label{
-    font-size: 20px;
-    padding-right: 5px;
-}
+
 .carousel-caption p{
 
     font-size: 2vw;
@@ -232,7 +237,7 @@ span{
     list-style: none;
 }
 #About p{
-    font-size: 20px;
+    font-size: 1.5vh;
 }
 #nav a{
     text-decoration: none;
