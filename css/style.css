@@ -2,27 +2,52 @@ html,body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 html{
     scroll-behavior: smooth;
 }
+#header {
+    background-color: dodgerblue;
+}
+#header a{
+    color:whitesmoke;
+    font-size: 17px;
+}
+#header a:hover{
+    text-decoration: none;
+}
+#header .fa{
+    font-size: 30px;
+    padding-top: 4px;
+}
+#header label{
+    font-size: 20px;
+    padding-right: 5px;
+}
 .carousel-caption p{
 
-    font-size: 15px;
+    font-size: 2vw;
+    background: rgba(0,0,0,0.8);
+    padding: 15px 0;
+    position:relative;
+    padding-bottom: 20px;
+
+}.carousel-caption h5{
+
+    font-size: 2vw;
     background: rgba(0,0,0,0.8);
     padding: 15px 0;
     position:relative;
     padding-bottom: 20px;
 
 }
-@media screen and(max-width:413px){
-    .carousel-caption p,h4{
-        font-size: 10px;
-    }
-}
 .navbar-nav{
     margin-left: auto;
 
+}
+.navbar-nav .nav-item a:hover{
+background-color: dodgerblue;
 }
 span{
     padding-left: 10px;
@@ -30,12 +55,15 @@ span{
 .navbar-brand{
     font-size: 25px;
 }
+.nav-item .active{
+    color: dodgerblue;
+}
 .nav-item{
     text-transform: uppercase;
     font-size: 23px;
 }
-.nav-item a:hover{
-    color: #2c3e50;
+.nav-item:hover{
+    color: dodgerblue;
 }
 .service-tittle p:after{
     content: "";
@@ -71,7 +99,7 @@ span{
 }
 
  #icons .fa{
-        color: darkgreen;
+        color: dodgerblue  ;
         font-size: 75px;
      margin-bottom: 30px;
      margin-top: 30px;
@@ -85,11 +113,11 @@ span{
 
 #icons h4{
     color: black;
-    font-size: 35px;
+    font-size: 3vh;
 }
 #icons p{
 
-    font-size: 20px;
+    font-size: 2vh;
 }
 
 .cont:after{
@@ -210,7 +238,7 @@ span{
     text-decoration: none;
 }
 #nav a:hover{
-    color: orangered;
+    color: dodgerblue;
 }
 #add a{
     text-decoration: none
@@ -229,7 +257,7 @@ span{
     font-size: 30px;
 }
 .brand a{
-    color: brown;
+    color: dodgerblue;
 }
 .brand a{
     font-size: 30px;
@@ -243,7 +271,7 @@ span{
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color:dodgerblue;
   color: white;
   cursor: pointer;
   padding:10px;
