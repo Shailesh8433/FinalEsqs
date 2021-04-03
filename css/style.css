@@ -7,46 +7,40 @@ html,body{
 html{
     scroll-behavior: smooth;
 }
-  
-#header {
-    background-color: dodgerblue;
-}
+    /* ---------------------HEADER---------------*/
 #header li{
     list-style: none;
     display: inline-block;
-}
-.header a, .header .fa{
-    color: whitesmoke;
-    padding-right: 10px;
     
 }
-.header a:hover{
+#header {
+    background-color: dodgerblue;
+}
+#header .fa{
+    color: whitesmoke;
+    padding-right: 10px;
+ 
+    
+}
+#header a{
+    color: whitesmoke;
+ 
+    
+}
+#header a:hover{
     text-decoration: none;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px)
+@media only screen and (max-width: 580px)
 {
-    .header p , .header a{
+    #header {
         text-align: center;
+        margin: 0;
     }
+    
 }
 
-.carousel-caption p{
+    /* ---------------------MENUS---------------*/
 
-    font-size: 2vw;
-    background: rgba(0,0,0,0.8);
-    padding: 15px 0;
-    position:relative;
-    padding-bottom: 20px;
-
-}.carousel-caption h5{
-
-    font-size: 2vw;
-    background: rgba(0,0,0,0.8);
-    padding: 15px 0;
-    position:relative;
-    padding-bottom: 20px;
-
-}
 .navbar-nav{
     margin-left: auto;
 
@@ -58,18 +52,83 @@ span{
     padding-left: 10px;
 }
 .navbar-brand{
-    font-size: 25px;
+    font-size: 20px;
 }
 .nav-item .active{
     color: dodgerblue;
 }
 .nav-item{
     text-transform: uppercase;
-    font-size: 23px;
+    font-size: 20px;
 }
 .nav-item:hover{
     color: dodgerblue;
 }
+
+
+    /* ---------------------SLIDER---------------*/
+
+
+
+
+.carousel-caption h5{
+
+    font-size: 2vw;
+    background: rgba(0,0,0,0.8);
+    padding: 15px 0;
+    position:relative;
+    padding-bottom: 20px;
+
+}
+
+
+@media only screen and (max-width: 1204px)
+{
+ 
+    .carousel-caption h5{
+        font-size: 16px;
+
+    }
+    .carousel-caption {
+        margin-bottom: -35px;
+    }
+    .carousel-caption h5 {
+        margin-top: 0px;
+
+    }
+}
+@media only screen and (max-width: 320px)
+{
+ 
+    .carousel-caption h5{
+        font-size: 14px;}
+    
+        .carousel-caption {
+        margin-bottom: -35px;
+    }
+    .carousel-caption h5 {
+        margin-top: 0px;
+
+    }
+    #banner span{
+        font-size: 14px;
+    }
+    #header {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+
+    }
+
+    /* ---------------------SERVICES---------------*/
+#icons fa{
+    color: dodgerblue;
+    font-size: 75px;
+     margin-bottom: 30px;
+     margin-top: 30px;
+}
+
 .service-tittle p:after{
     content: "";
     background-color: red;
@@ -79,7 +138,7 @@ span{
     display: block;
 
 }
-.service-tittle h1{
+.service-tittle h2{
     text-align: center;
 }
 .service-tittle p{
@@ -92,7 +151,7 @@ span{
 }
 .readmore a{
     color: darkred;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 .readmore{
@@ -107,7 +166,6 @@ span{
         color: dodgerblue  ;
         font-size: 75px;
      margin-bottom: 30px;
-     margin-top: 30px;
 
             }
 #icons{
@@ -118,12 +176,25 @@ span{
 
 #icons h4{
     color: black;
-    font-size: 3vh;
+    font-size: 20px;
+    
 }
 #icons p{
 
-    font-size: 2vh;
+    font-size: 18px;
 }
+
+    /* ---------------------ABOUT US---------------*/
+
+ #abmg img{
+     height: 580px;
+}
+#About p{
+    font-size: 18px;
+}
+
+    /* ---------------------CONTACT US---------------*/
+
 
 .cont:after{
     content: "";
@@ -133,7 +204,7 @@ span{
     width: 90px;
     display: block;
 }
-#contact h1:after{
+#contact h2:after{
     content: "";
     background-color: red;
     height: 3px;
@@ -142,26 +213,56 @@ span{
     display: block;
 }
 #banner label{
-    font-size: 23px;
+    font-size: 20px;
 }
+#quick li{
+    font-size: 18px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 15px;
+    background-color: dodgerblue;
+    padding: 20px;
+        }
+.m{
+    padding: 20px;
+    padding-left:px
+}
+
+#quick span{
+     padding-top: 0;
+    display: block;
+    padding-left: 43px;
+ }
+#quick h4{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+        }
+#quick li{
+    list-style: none;
+}
+
+
+
+    /*-------------------FOOTER------------*/
+
 #footer-side{
     background-color: #2c3e50;
 }
-.brand{
-    padding: 18px;
-}
 .social{
-    font-size: 25px;
+     padding-top: 18px;
+    font-size: 20px;
     color: aliceblue;
 }
 .social i{
-    padding:12px;
+    padding-right:12px;
 }
 #nav li{
     list-style: none;
 }
 #nav a{
-   font-size: 25px;
+   font-size: 20px;
     color: aliceblue;
 }
 #nav{
@@ -192,53 +293,16 @@ span{
 #add li{
     font-size: 20px;
 }
-#add li{
-    font-size: 20px;
-}
 #arrow {
     background:rgba(55,25,25,0.7);
     border-radius: 20px;
     margin top: 5px;;
 }
 #quick .fa{
-            font-size: 30px;
+            font-size: 25px;
             padding-right: 15px;
         }
-.md img{
-     width:100%;
-    height: 100%
-        }
 
-#quick li{
-    font-size: 18px;
-    position: relative;
-    color: #ffffff;
-    font-weight: 600;
-    margin-bottom: 15px;
-    background-color: dodgerblue;
-    padding: 20px;
-        }
-.m{
-    padding: 20px;
-    padding-left:px
-}
-
-#quick span{
-     padding-top: 0;
-    display: block;
-    padding-left: 43px;
- }
-#quick h4{
-    margin-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-        }
-#quick li{
-    list-style: none;
-}
-#About p{
-    font-size: 1.5vh;
-}
 #nav a{
     text-decoration: none;
 }
@@ -249,7 +313,7 @@ span{
     text-decoration: none
 }
 #add a:hover{
-    color: red;
+    color: none;
 }
 
 #footer a{
@@ -259,14 +323,10 @@ span{
     color: aliceblue;
 }
 .social a{
-    font-size: 30px;
+    font-size: 25px;
 }
-.brand a{
-    color: dodgerblue;
-}
-.brand a{
-    font-size: 30px;
-}
+
+    /*-------------------TOP BUTTON------------*/
 #myBtn {
   display: none;
   position: fixed;
@@ -290,6 +350,8 @@ span{
     color: ghostwhite;
     font-size: 30px;
 }
+
+    /*-------------------PAGE LOADER------------*/
 #loader{
     background: #111;
     position: fixed;
