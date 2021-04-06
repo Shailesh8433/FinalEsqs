@@ -8,32 +8,6 @@ html{
     scroll-behavior: smooth;
 }
     /* ---------------------HEADER---------------*/
-@media only screen and (max-width: 1204px) and  (min-width:280px)
-{
-  #icons h2{
-    font-size:16px;
-  }
-    #icons p {
-        font-size: 10px;
-    }
-    #About p{
-      font-size:10px;
-    }
-    #quick span{
-      font-size:10px
-    }
-    .form-group label{
-      font-size:10px;
-    }
-    #nav a{
-      font-size:10px;
-    }
-    #add li {
-      font-size:10px;
-    }
-
-
-    }
 
 #header li{
     list-style: none;
