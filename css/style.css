@@ -231,7 +231,8 @@ span{
 
 #quick span{
     display: block;
-    padding: 43px;
+    padding: 10px;
+    padding-left: 39px;
  }
 #quick h4{
     margin-top: 20px;
