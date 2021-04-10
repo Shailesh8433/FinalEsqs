@@ -220,7 +220,6 @@ span{
     font-size: 18px;
     position: relative;
     color: #ffffff;
-    font-weight: 600;
     margin-bottom: 15px;
     background-color: dodgerblue;
     padding: 20px;
@@ -231,9 +230,8 @@ span{
 }
 
 #quick span{
-     padding-top: 0;
     display: block;
-    padding-left: 43px;
+    padding: 43px;
  }
 #quick h4{
     margin-top: 20px;
